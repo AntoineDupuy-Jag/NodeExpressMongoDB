@@ -15,7 +15,7 @@ Pour portail d'authentification :
 Nom d'utilisateur : Qoophee
 Password : dwwm78660
 
->> cf. le fichier 'db.contacts.users' dans le dossier 'db' <<
+cf. le fichier 'db.contacts.users' dans le dossier 'db'
 
 Actions réalisées lors de l'évalution :
 ======================================
