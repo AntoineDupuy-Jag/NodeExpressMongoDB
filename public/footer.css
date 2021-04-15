@@ -1,0 +1,11 @@
+@import '../font.css';
+footer {
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    margin-top: 80px;
+    font-family: 'cascadia_coderegular';
+}

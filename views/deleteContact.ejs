@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <h1>Suppression de vos données personnelles</h1>
+    <div>
+        <form method="POST" action="/deleteContact" class="form">
+            <div>
+                <label for="email" class="form-label">Entrez l'adresse e-mail associée aux données que vous souhaitez supprimer :</label><br>
+                <input type="email" name="email" class="form-control" required>
+            </div>
+            <div>
+                <label for="check" class="form-label">Êtes-vous sûr ? Cocher pour confirmer :  </label>
+                <input type="checkbox" name="check" class="checkbox" required>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Valider</button>
+                <a href="/" class="btn btn-secondary">Annuler</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

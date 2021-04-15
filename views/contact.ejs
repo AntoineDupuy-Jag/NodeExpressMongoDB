@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <h1>Contactez-nous</h1>
+    <div>
+        <form method="POST" action="/contact" class="form">
+            <div>
+                <label for="name" class="form-label">Nom d'utilisateur :</label><br>
+                <input type="text" name="name" class="form-control">
+            </div>
+            <div>
+                <label for="email" class="form-label">Votre e-mail :</label><br>
+                <input type="email" name="email" class="form-control">
+            </div>
+            <div>
+                <label for="msg" class="form-label">Votre message :</label><br>
+                <textarea name="msg" cols="33" rows="5" placeholder="Votre message ici..." class="form-control"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+                <a href="/" class="btn btn-secondary">Annuler</a>
+                <a href="/deleteContact" class="btn btn-warning" style="margin-left:370px">Supprimer ses données</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

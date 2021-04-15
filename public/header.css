@@ -1,0 +1,13 @@
+@import '../font.css';
+header {
+    margin-top: 0;
+    background-color: black;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.header {
+    font-family: 'cascadia_coderegular';
+    color: white;
+    padding-top: 15px;
+}

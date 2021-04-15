@@ -1,0 +1,40 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+.validate {
+    text-align: center;
+    color: rgb(10, 121, 10);
+    list-style: none;
+}
+
+.errors {
+    margin-top: 5px;
+    color: red;
+    list-style: none;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.form div {
+    padding: 12px;
+}
+
+.form label {
+    font-size: 18px;
+}
+
+.checkbox {
+    margin-left: 5px;
+}

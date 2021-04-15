@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="../styles.css">
+
+<% if (locals.errorMessageContact != null) { %>
+    <ul class="errors">
+        <% errorMessageContact.forEach(function(errorMessagesContact) { %>
+            <li>
+                <%= errorMessagesContact.msg %>
+            </li>
+            <% }); %>
+    </ul>
+    <% } %>
+
+        <% if (locals.errorMessage != null) { %>
+            <li class="errors">
+                <%= errorMessage %>
+            </li>
+            <% } %>
