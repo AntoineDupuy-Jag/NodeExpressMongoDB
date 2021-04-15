@@ -1,16 +1,13 @@
 # NodeExpressMongoDB
 MongoDB relation + authenticate + create entry + nodemailer
 
-ECF DWWM / 14-04-2021  |
-Antoine DUPUY          |
-NodeJS                 |
-Template: ejs          |
-Database: MongoDB      |
-_______________________|
+ECF DWWM / 14-04-2021  
+Antoine DUPUY          
+NodeJS                 
+Template: ejs         
+Database: MongoDB
 
-   --------------------------------------------------------------
-	|  ECF : PAGE D'AUTHENTIFICATION ET GESTION D'UNE PAGE CONTACT  |
-   ---------------------------------------------------------------
+ECF Developpeur Web / Web Mobile : PAGE D'AUTHENTIFICATION ET GESTION D'UNE PAGE CONTACT
 
 Pour portail d'authentification :
 =================================
@@ -19,8 +16,6 @@ Nom d'utilisateur : Qoophee
 Password : dwwm78660
 
 >> cf. le fichier 'db.contacts.users' dans le dossier 'db' <<
-
-
 
 Actions réalisées lors de l'évalution :
 ======================================
